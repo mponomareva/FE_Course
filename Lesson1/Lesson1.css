@@ -1,0 +1,102 @@
+body {
+    color: #444444;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    margin: 0px;
+    padding: 20px;
+}
+
+p {
+    margin: 0px;
+}
+
+a {
+    color: #00759d;
+    text-decoration: underline;
+}
+
+.header {
+    border-bottom: 1px solid #d9d9d9;
+    display: table;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.header__item {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header__item--right {
+    text-align: right;
+}
+
+.header__headline {
+    color: #00759d;
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.header__subline {
+    color: #777777;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.main {
+}
+
+.main p {
+    margin: 15px 0px;
+}
+
+.footer {
+    border-top: 1px solid #d9d9d9;
+    color: #949494;
+    display: table;
+    font-size: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.footer__item {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.footer__item p:first-child {
+    margin-bottom: 4px;
+}
+
+.footer__item--right {
+    text-align: right;
+}
+
+.icon {
+    background: url(sprite0.png) no-repeat;
+    display: inline-block;
+}
+
+.icon--date {
+    background-position: -41px -1px;
+    height: 13px;
+    margin-right: 4px;
+    vertical-align: bottom;
+    width: 13px;
+}
+
+.icon--mail {
+    background-position: -61px -1px; // here you basically just add the X and Y coordinates of the image you want on the sprite (in pixel)
+    height: 13px;
+    margin-right: 4px;
+    vertical-align: bottom;
+    width: 13px;
+}
+
+.icon--logo {
+    background-position: 0px 0px;
+    height: 33px;
+    width: 33px;
+}
